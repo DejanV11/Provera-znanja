@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Magacin SYSTEM "magacin.dtd">
+<Magacin xmlns="http://www.w3schools.com"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3schools.com magacin.xsd">
+         <Artikal>
+            <Naziv sifra="1"></Naziv>
+         
+            <DatumIzrade>
+                <Dan>1</Dan>
+                <Mesec>5</Mesec>
+                <Godina>2020</Godina>         
+            </DatumIzrade>
+
+            <Cena tip="eur">
+                10
+            </Cena>
+
+            <KompanijaProdavaca>
+                <Ime>
+                    As
+                </Ime>
+                <Adresa>
+                    Kralja Petra 98                
+                </Adresa>
+            </KompanijaProdavaca>
+
+            <EmailProdavca tip="privatni">
+                perica@gmail.com
+            </EmailProdavca>
+            <EmailProdavca tip="sluzbeni">
+                perapericas@gmail.com
+            </EmailProdavca>
+         </Artikal>
+         
+         <Artikal>
+            <Naziv sifra="2"></Naziv>
+         
+            <DatumIzrade>
+                <Dan>2</Dan>
+                <Mesec>5</Mesec>
+                <Godina>2020</Godina>         
+            </DatumIzrade>
+
+            <Cena>
+                1000
+            </Cena>
+
+            <KompanijaProdavaca>
+                <Ime>
+                    As
+                </Ime>
+                <Adresa>
+                    Ustanicka 123                
+                </Adresa>
+            </KompanijaProdavaca>
+
+            <EmailProdavca tip="privatni">
+                steva@gmail.com
+            </EmailProdavca>
+            <EmailProdavca tip="sluzbeni">
+                stevaas@gmail.com
+            </EmailProdavca>
+         </Artikal>
+
+        <Artikal>
+            <Naziv sifra="3"></Naziv>
+         
+            <DatumIzrade>
+                <Dan>3</Dan>
+                <Mesec>4</Mesec>
+                <Godina>2020</Godina>         
+            </DatumIzrade>
+
+            <Cena>
+                100
+            </Cena>
+
+            <KompanijaProdavaca>
+                <Ime>
+                    As
+                </Ime>
+                <Adresa>
+                    Zeleznicka 13                
+                </Adresa>
+            </KompanijaProdavaca>
+
+            <EmailProdavca tip="privatni">
+                milance@gmail.com
+            </EmailProdavca>
+            <EmailProdavca tip="sluzbeni">
+                milanas@gmail.com
+            </EmailProdavca>
+         </Artikal>
+</Magacin>
